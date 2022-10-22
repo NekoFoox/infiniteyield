@@ -3063,7 +3063,7 @@ function CreateLabel(Name, Text)
 		lastLabel.Text = Time()..' - ['..Name..']: '..Text..' (x'..dupeCount..')'
 	else
 		if dupeCount > 1 then dupeCount = 1 end
-		if #scroll_2:GetChildren() >= 2546 then
+		if #scroll_2:GetChildren() >= 25460 then
 			scroll_2:ClearAllChildren()
 		end
 		local alls = 0
@@ -3107,7 +3107,7 @@ function CreateLabel(Name, Text)
 end
 
 function CreateJoinLabel(plr,ID)
-	if #scroll_3:GetChildren() >= 2546 then
+	if #scroll_3:GetChildren() >= 25460 then
 		scroll_3:ClearAllChildren()
 	end
 	local infoFrame = Instance.new("Frame")
